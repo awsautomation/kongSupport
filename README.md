@@ -2,7 +2,7 @@
 
    KONG Enterprise Terraform Module - Execution Error
    
-  This Error i am getting while running Kong Enterprise -Terraform Module as in error it showing that this parameters already exist but its never exist before running this Kong Terraform Module as i have verified from AWS console. It is getting created only after running the Kong Terraform Module " main.tf" file.
+1. This Error i am getting while running Kong Enterprise -Terraform Module as in error it showing that this parameters already exist but its never exist before running this Kong Terraform Module as i have verified from AWS console. It is getting created only after running the Kong Terraform Module " main.tf" file.
 then why this error is always occuring. Please Give the sophisticated solutions for this Kong Terraform module ASAP.
 
 Error: Error creating DB Parameter Group: DBParameterGroupAlreadyExists: Parameter group kong-dev already exists
@@ -29,7 +29,7 @@ Error: AlreadyExistsException: An alias with the name arn:aws:kms:me-south-1:798
   15: resource "aws_kms_alias" "kong" {
   
   
-main.tf (Main.tf file for running kong Enterprise - Terraform module, is as it is, just i have given blank parameters due to security but while running i will assign the parameter to the main.tf for installations of Kong Enterprise Module).
+2. MAIN.TF (Main.tf file for running kong Enterprise - Terraform module, is as it is, just i have given blank parameters due to security but while running i will assign the parameter to the main.tf for installations of Kong Enterprise Module).
 
 provider "aws" {
 region =""
