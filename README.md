@@ -1,10 +1,13 @@
 # kongSupport
 
-   KONG Enterprise Terraform Module -  EC2 is not having any Kong Configurations files or setUp
+   KONG Enterprise Terraform Module
    
-   Kong Enterprise Terraform Module has been installed successfully on AWS and for verfying the configuartions i have attached the public IP to one of the Instance whcih has been created by running the Kong Enterprise Terraform code. But once i have login to that Ubuntu Machine (EC2) for verifying Kong configurations i could not see any setup and Kong configurations file.
+   Please find the attched request informations as per yours mail request.
    
-   We have followed the Standard Kong Enterprise Terraform Module code to install the Kong using Terraform. Please lets us know the Root casue or issue why so it's has not installed any Kong Configuartions file in EC2 machine.
+   1. ME-SOUTH-1A and ME-SOUTH-1B images consiste of EC2 netstat for two instance which has been provisoined by the terraform.
+   2. Kong Terraform Plan File whith name TF-PLAN.json.Which currently as been installed on AWS.
+   
+  
    
 
 
