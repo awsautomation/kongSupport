@@ -1,15 +1,11 @@
 # kongSupport
 
-   KONG Enterprise Terraform Module -  Accessing Kong Portal using Load Balancer DNS
+   KONG Enterprise Terraform Module -  EC2 is not having any Kong Configurations files or setUp
    
-1. As Kong Terraform Enterprise Module has been deployed to AWS successfully.
-    > Now from load Blancer we will get two DNS URL 
-              1. https://kong-build-external-2024507315.me-south-1.elb.amazonaws.com (External Load Balancer)
-              2. https://internal-kong-build-internal-314833879.me-south-1.elb.amazonaws.com (Internal Load Balancer)
-              
- 
- So after deployment of Kong Terraform Enterprise Module how to access it using load blanacer DNS.Please Give the Steps Precisously one by one after deployment how   to access the KONG PORTAL using DNS.
- 
- Because when i am trying to access the External Load Balancer i am getting this message in the Browser "502 BAD GATEWAY" and some time this error message "503 Service Temporarily Unavailable"
+   Kong Enterprise Terraform Module has been installed successfully on AWS and for verfying the configuartions i have attached the public IP to one of the Instance whcih has been created by running the Kong Enterprise Terraform code. But once i have login to that Ubuntu Machine (EC2) for verifying Kong configurations i could not see any setup and Kong configurations file.
+   
+   We have followed the Standard Kong Enterprise Terraform Module code to install the Kong using Terraform. Please lets us know the Root casue or issue why so it's has not installed any Kong Configuartions file EC2 machine.
+   
+
 
 
